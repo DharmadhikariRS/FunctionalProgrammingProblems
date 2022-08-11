@@ -14,6 +14,7 @@
             Console.WriteLine("7. Swap Two Numbers");
             Console.WriteLine("8. Check Whether a Number is Even or Odd");
             Console.WriteLine("9. consonent or Vowel Check");
+            Console.WriteLine("10. Find the Largest Among Three Numbers");
 
             int n = Convert.ToInt32(Console.ReadLine());
             switch (n)
@@ -68,6 +69,13 @@
                     Console.WriteLine();
 
                     break;
+                case 10:
+                    MaxOfThreeNum maxOfThreeNum= new MaxOfThreeNum();
+                    maxOfThreeNum.CheckMaxNumber();
+                
+                    Console.WriteLine();
+                    break;
+
                 default:
                     Console.WriteLine("Make Proper Selection");
                     break;
