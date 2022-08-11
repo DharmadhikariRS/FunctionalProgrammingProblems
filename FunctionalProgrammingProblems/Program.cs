@@ -14,6 +14,11 @@
                     flipCoinPercentProgram.FlipCoinPercentage();
                     Console.WriteLine();
                     break;
+                case 2:
+                    LeapYearProgram leapYearProgram = new LeapYearProgram();
+                    leapYearProgram.LeapYear();
+                    Console.WriteLine();
+                    break;
                 default:
                     Console.WriteLine("Make Proper Selection");
                     break;
